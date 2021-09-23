@@ -27,7 +27,7 @@ const produceSoundButton = (sounds) => {
 produceSoundButton(sounds);
 
 const playSound = (letter) => {
-    const audio = new Audio(`/assets/sounds/${sounds[letter]}`);
+    const audio = new Audio(`./assets/sounds/${sounds[letter]}`);
     audio.play();
 }
 
