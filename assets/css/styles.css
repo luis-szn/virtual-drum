@@ -91,12 +91,13 @@ main{
     position: absolute;
     margin: 0 auto;
     bottom: 0;
+    text-align: center;
+
 }
 
 .footer p {
     color: #ffffff;
     font-size: 1.6rem;
-    text-align: center;
 }
 
 @media(min-width: 650px){
