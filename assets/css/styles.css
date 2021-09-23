@@ -20,7 +20,7 @@ body{
 }
 
 body{
-    background-image: url(/assets/images/background.svg);
+    background-image: url('/assets/images/background.png');
     width: 100vw;
     height: 100vh;
     font-family: var(--main-font);
