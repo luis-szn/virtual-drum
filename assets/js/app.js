@@ -39,7 +39,7 @@ const removeEffect = (letter) => {
     div.addEventListener('transitionend', removeActive)
 };
 const activateDiv = (event) => {
-    const letter = event.type == 'click' ? letter =  event.target.id : event.key.toUpperCase();
+    const letter = event.type == 'click' ? event.target.id : event.key.toUpperCase();
 
     const validLetter = sounds.hasOwnProperty(letter)
     if(validLetter){
