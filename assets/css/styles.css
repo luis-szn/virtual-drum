@@ -86,12 +86,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100vw;
     height: 1.6rem;
     position: absolute;
     margin: 0 auto;
     bottom: 0;
-    text-align: center;
 
 }
 
